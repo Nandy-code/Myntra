@@ -1,0 +1,230 @@
+*{
+    margin:0;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    font-family:"Poppins", sans-serif;
+}
+::selection{
+    color:violet;
+}
+.flex-container{
+    width:100%;
+    height:70px;
+    padding: 0 40px 0 40px;
+    position:fixed;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    color:black;
+    background-color:white;
+    box-shadow:4px 0 10px rgba(0, 0, 0, 0.2);
+}
+input:focus{
+    background-color:pink;
+}
+.nav{
+    font-size: 15px;
+    font-weight: 500; 
+    display:flex;
+    justify-content:space-between;
+    align-items:center; 
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    text-align: center;
+}
+nav span{
+    color: red;
+    position: relative;
+    top:-10px;
+    font-size: 12px;
+}
+li1:hover{
+    text-decoration:3px underline red;
+    text-underline-offset:28px;
+    cursor: pointer;
+}
+li2:hover{
+    text-decoration:3px underline orange;
+    text-underline-offset:28px;
+    cursor: pointer;
+}
+li3:hover{
+    text-decoration:3px underline yellow;
+    text-underline-offset:28px;
+    cursor: pointer;
+}
+li4:hover{
+    text-decoration:3px underline green;
+    text-underline-offset:28px;
+    cursor: pointer;
+}
+li5:hover{
+    margin:2 px;
+    text-decoration:3px underline blue;
+    text-underline-offset:28px;
+    cursor: pointer;
+}
+li6:hover{
+    text-decoration:3px underline indigo;
+    text-underline-offset:28px;
+    cursor: pointer;
+}
+.flex-icon{
+    text-align: center;
+}
+.flex-icon p{
+    font-size: 13px;
+}
+.flex-icon p:hover{
+    font-size: 12px;
+    text-decoration:3px underline violet;
+    text-underline-offset:18px;
+    cursor: pointer;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2);
+    margin:28px;
+    padding:15px;
+    font-size: 12px;
+}
+.dropdown:hover .dropdown-content {
+    display:block;
+}
+
+
+
+.banner{
+    display:flex; 
+}
+.banner img{
+    width:253px;
+    height:350px;
+    padding: 0 2px 0 2px;
+}
+.box-card{
+    margin-top:15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 20px;
+}
+.box-card img{
+    width:200px;
+    height:280px;
+    margin-left:5px;
+    margin-right:5px;
+    margin-bottom:25px;
+}
+.centre-flex{
+    display: flex;
+    gap:40px;
+    margin:0 30% 10px;
+}
+.centre-flex img{
+    width:200px;
+    height:280px;
+}
+/*FOOTER*/
+hr{
+    width: 100%;
+}
+.flex{
+    width:100%;
+    display: flex;
+    padding:5% 15% 0 16% ;
+    justify-content: space-between;
+    font-size: 14px;
+    color: rgb(79, 67, 67);
+}
+.footer p {
+    font-size: 13px;
+}
+.footer span{
+    font-size: 14px;
+    font-weight: bold;
+}
+.footer img{
+    width:120px;
+    height:40px;
+    border-radius:15px;
+    margin:10px  0 0 0;
+}
+.footer ol{
+    line-height: 40px;
+}
+
+
+/*FOOTER ADD*/
+.footeradd{
+    padding:0 15% 0 16% ;
+}
+.footeradd b{
+    font-size:14px;
+    font-weight:600;
+    color: rgb(79, 67, 67);
+    margin-bottom: 2px;
+}
+.footeradd p{
+    font-size:13px;
+    color: rgb(80, 79, 79);
+}
+.footeradd span{
+    font-size:13px;
+    text-align: center;
+    gap: 10px;
+    padding: 0 5% 5px 5%;
+}
+.footerphone{
+    font-size:12px;
+    color: rgb(80, 79, 79);
+    padding-left: 75%;
+}
+
+/*FOOTER PARA*/
+.footerpara{
+    padding: 0 15% 0 16%;
+    text-align: justify;
+}
+.footerpara b{
+    font-size:13px;
+    font-weight:600;
+    color: rgb(79, 67, 67);
+    margin-bottom: 2px;
+}
+.footerpara p{
+    font-size:12px;
+    color: rgb(80, 79, 79);
+}
+.orderedlist{
+    padding:5px 0 5px 30px;
+}
+.unorderedlist{
+    font-size: 12px;
+    color: rgb(80, 79, 79);
+    padding: 5px 0 5px 30px;
+}
+/* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2), 0 -4px 10px rgba(0, 0, 0, 0.2), 4px 0 10px rgba(0, 0, 0, 0.2), -4px 0 10px rgba(0, 0, 0, 0.2); */
+ @media screen(max-width <= 1245px)
+ {
+    .images1
+    {
+        display:none; 
+    }
+    .banner
+ }
+
+
+
+
